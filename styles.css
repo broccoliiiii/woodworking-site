@@ -4,70 +4,67 @@ body {
     background-size: cover;
     background-color: lightslategray;
     color: white;
+    text-shadow: 2px 2px #1c1b18;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .top-content {
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    margin: 40px;
+    /* height: 100vh; */
+    margin: 4em;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 80px;
-    height: fit-content;
+    gap: 8vw;
 }
 a {
     margin-right: auto;
 }
 .logo {
-    height: 200px;
+    height: 12em;
     width: auto;
     margin-right: auto;
 }
 .quote {
     display: flex;
     text-align: center;
-    margin: 200px;
+    margin: 2em;
     font-size: 10vh;
 }
 .gallery {
     background-color: #413729;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em;
+}
+.gallery > .image-container {
+    margin-top: 4em;
+    width: 90vw;
+    display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
-.gallery > img {
-    height: 500px;
-    width: 400px;
-    padding: 2%;
+.gallery > .image-container > img {
+    height: 30em;
+    width: 25em;
 }
 .gallery > h2 {
     text-align: center;
     width: 100%;
 }
-
-.display-image {
-    border: 4px solid gray;
-    height: 400px;
-    width: 400px;
-}
 .about {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-}
-.about > p {
-    font-size: 30px;
-    width: 40%;
-    margin: 10%;
+    margin: 4em;
+    font-size: 2em;
 }
 .about > img {
     height: 400px;
@@ -80,13 +77,8 @@ a {
     align-items: center;
     padding: 5%;
     background-color: #413729;
+    font-size: 2em;
 }
-.contact > p {
-    font-size: 30px;
-}
-
-
-
 
 .contact-button {
 	box-shadow: 0px 1px 0px 0px #1c1b18;
@@ -113,10 +105,8 @@ a {
 	top:1px;
 }
 
-
 h2 {
     color: white;
-    /* font-size: 20px; */
 }
 a:link {
     color: white;
