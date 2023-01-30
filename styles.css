@@ -13,39 +13,38 @@ body {
 }
 
 .header {
-    /* height: 100vh; */
-    margin: 4em;
+    margin: 40px;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8vw;
+    gap: 60px;
 }
 a {
     margin-right: auto;
 }
 .logo {
-    height: 12em;
+    height: 200px;
     width: auto;
     margin-right: auto;
 }
 .quote {
     display: flex;
     text-align: center;
-    margin: 2em;
-    font-size: 10vh;
+    margin: 200px;
+    font-size: 100px;
 }
 .gallery {
     background-color: #413729;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 4em;
+    padding: 40px;
 }
 .gallery > .image-container {
-    margin-top: 4em;
-    width: 90vw;
+    margin-top: 20px;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -62,14 +61,17 @@ a {
 }
 .about {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin: 4em;
-    font-size: 2em;
+    margin: 120px;
+    font-size: 30px;
 }
 .about > img {
     height: 400px;
     width: 400px;
+}
+.about > p {
+    margin: 40px;
 }
 .contact {
     display: flex;
@@ -78,7 +80,7 @@ a {
     align-items: center;
     padding: 5%;
     background-color: #413729;
-    font-size: 2em;
+    font-size: 40px;
 }
 
 .contact-button {
