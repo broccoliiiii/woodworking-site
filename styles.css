@@ -50,10 +50,11 @@ a {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .gallery > .image-container > img {
-    height: 30em;
-    width: 25em;
+    height: 400px;
+    width: 300px;
 }
 .gallery > h2 {
     text-align: center;
